@@ -1,0 +1,15 @@
+
+import java.util.Scanner;
+
+public class Paaohjelma {
+
+    public static void main(String[] args) {
+        Scanner lukija = new Scanner(System.in);
+
+        Kurssipisteet ohjelmointikurssi = new Kurssipisteet(100, 50, 60, 70, 80, 90);
+
+        ohjelmointikurssi.lisaaKurssipisteita();
+        ohjelmointikurssi.lisaaKurssipisteita();
+        
+    }
+}
